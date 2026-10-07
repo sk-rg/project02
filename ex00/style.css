@@ -14,7 +14,7 @@
 }
 .nav-links a{
 	color: white;
-	text-decoration: none;
+
 }
 .card-container {
 	display: flex;
@@ -32,3 +32,15 @@
 	border: 1px solid black;
 }
 
+.card:active{
+transform: scale(0.95);
+
+}
+
+.card:target{
+background-color: aqua;
+color:azure;
+transform: translate(-5px);
+transition: all 0.3s ease;
+
+}
